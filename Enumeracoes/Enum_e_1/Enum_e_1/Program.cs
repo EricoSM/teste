@@ -19,11 +19,11 @@ namespace Enum_e_1
 
             Console.WriteLine(order);
 
-            string txt = OrderStatus.PendingPayment.ToString();  //order enumerada para string
+            string txt = OrderStatus.PendingPayment.ToString();  //enumeração para string
 
             Console.WriteLine(txt);
 
-            OrderStatus os = Enum.Parse<OrderStatus>("Delivered");
+            OrderStatus os = Enum.Parse<OrderStatus>("Delivered"); //String para enumeração
 
             Console.WriteLine(os);
         }
