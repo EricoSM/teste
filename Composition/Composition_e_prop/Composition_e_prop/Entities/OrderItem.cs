@@ -7,14 +7,14 @@ namespace Composition_e_prop.Entities
     class OrderItem
     {
         public int Quantity { get; set; }
-        public int Price { get; set; }
+        public double Price { get; set; }
         public Product Product { get; set; }
 
         public OrderItem()
         {
         }
 
-        public OrderItem(int quantity, int price, Product product)
+        public OrderItem(int quantity, double price, Product product)
         {
             Quantity = quantity;
             Price = price;
