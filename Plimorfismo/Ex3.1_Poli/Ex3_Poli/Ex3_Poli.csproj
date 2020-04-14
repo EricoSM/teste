@@ -5,8 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="D:\C#\Estudos\teste\Plimorfismo\Ex3.1_Poli\Program.cs" Link="Program.cs" />
-  </ItemGroup>
-
 </Project>
