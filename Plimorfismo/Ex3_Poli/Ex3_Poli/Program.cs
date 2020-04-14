@@ -51,6 +51,7 @@ namespace Ex3_Poli
             }
             Console.WriteLine();
 
+
             Console.Write("TOTAL TAXES: $ ");
             double sum = 0.0;
             foreach (TaxPayer tax1 in list)
