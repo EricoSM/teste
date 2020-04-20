@@ -6,13 +6,12 @@
         {
             if (amout <= 100.00)
             {
-                return amout * 0.2;
+                return amout * .2;
             }
             else
             {
-                return amout * 0.15;
+                return amout * .15;
             }
         }
-
     }
 }
